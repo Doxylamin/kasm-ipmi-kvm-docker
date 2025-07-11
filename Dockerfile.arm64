@@ -35,7 +35,6 @@ ADD deployment.properties /root/.config/icedtea-web/deployment.properties
 
 WORKDIR /root/
 RUN mkdir -p /root/images
-ADD novnc /root/novnc/
 
 ENV DISPLAY :0
 ENV RES 1024x768x24

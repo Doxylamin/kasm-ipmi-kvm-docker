@@ -10,7 +10,6 @@ ADD supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
 WORKDIR /root/
 RUN mkdir -p /root/images
-ADD novnc /root/novnc/
 
 ENV DISPLAY :0
 ENV RES 1024x768x24

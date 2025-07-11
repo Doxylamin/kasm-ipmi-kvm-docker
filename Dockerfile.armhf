@@ -21,7 +21,6 @@ RUN dpkg -i gconf-service-backend_3.2.6-0ubuntu2_armhf.deb libgconf-2-4_3.2.6-0u
 
 WORKDIR /root/
 RUN mkdir -p /root/images
-ADD novnc /root/novnc/
 
 ENV DISPLAY :0
 ENV RES 1024x768x24
